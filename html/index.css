@@ -1,0 +1,82 @@
+import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin:0px;
+    padding:0p;
+    font-family: 'Playfair Display', serif;
+}
+.menu{
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+}
+.burger{
+    margin-left:50px;
+    border:1px solid white;
+    border-radius:3px;
+    background-color:black;
+    display:none;
+}
+.line{
+    margin:4px 9px;
+    width:30px;
+    height:3px;
+    color:red;
+    background-color:white;
+}
+.m-item{
+    padding:3px;
+    color:orange;
+    text-decoration:none;
+}
+.input{
+    width:115px;
+}
+.menu{
+    height:50px;
+    display:flex;
+}
+.search{
+    margin:4px;
+    color:white;
+    background-color:orange;
+    border:1px solid orange;
+    border-radius:2px;
+}
+.main{
+    padding-top:53px;
+    padding-bottom:53px;
+    height:100%;
+    width:100%;
+    background-color:lightblue;
+}
+.logo{
+    text-align:center;
+    font-size:75px;
+    color:orange;
+}
+.sec{
+    margin:auto auto;
+    box-sizing:content-box;
+    max-width:70vw;
+    box-sizing:border-box;
+    background-color:white;
+    border-radius:3px;
+    box-shadow:1px 1px 1px 1px 056;
+    display:block;
+    hover:pointer;
+}
+.sec-1{
+    padding:20px;
+    border:1px solid lightblue;
+    box-shadow:5px 5px 5px 5px 000;
+}
+.sec-2{
+    padding:20px;
+    border:1px solid lightblue;
+}
+.sec-3{
+    padding:20px;
+    border:1px solid lightblue;
+}
